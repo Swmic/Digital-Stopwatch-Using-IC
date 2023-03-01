@@ -1,0 +1,846 @@
+(PCB redesign
+ (parser
+  (host_cad ARES)
+  (host_version 8.11 SP0)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -50.10160 -75.10160 70.10160 95.10160))
+  (boundary (path signal 0.20320 -50.00000 -75.00000 70.00000 -75.00000 70.00000 95.00000
+   -50.00000 95.00000 -50.00000 -75.00000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction vertical))
+  (grid via  0.63500)
+  (grid wire 0.63500)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+    $VIA#0_POWER
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component DIL16_U4 (place U4 -5.08000 -5.08000 front 0))
+  (component DIL16_U5 (place U5 -5.08000 5.08000 front 0))
+  (component DIL16_U6 (place U6 -5.08000 15.24000 front 0))
+  (component DIL16_U7 (place U7 20.32000 15.24000 front 0))
+  (component DIL14_U8 (place U8 -25.40000 -5.08000 front 0))
+  (component RES90_R3 (place R3 27.70000 34.73000 front 90))
+  (component RES90_R4 (place R4 22.62000 47.43000 front 180))
+  (component RES90_R5 (place R5 -4.05000 34.73000 front 90))
+  (component RES90_R6 (place R6 22.62000 52.51000 front 180))
+  (component RES90_R7 (place R7 31.51000 46.16000 front 0))
+  (component RES90_R8 (place R8 8.33000 -14.45000 front 270))
+  (component RES90_R9 (place R9 -9.13000 34.73000 front 90))
+  (component RES90_R10 (place R10 -26.91000 32.31000 front 270))
+  (component RES90_R11 (place R11 4.52000 -25.88000 front 180))
+  (component RES90_R12 (place R12 22.62000 57.59000 front 180))
+  (component RES90_R13 (place R13 13.41000 -14.45000 front 270))
+  (component RES90_R14 (place R14 18.49000 -14.45000 front 270))
+  (component RES90_R15 (place R15 23.57000 -14.45000 front 270))
+  (component RES90_R16 (place R16 28.65000 -14.45000 front 270))
+  (component RES90_R17 (place R17 41.35000 -8.10000 front 0))
+  (component RES90_R18 (place R18 35.00000 -14.45000 front 0))
+  (component RES90_R19 (place R19 35.00000 -19.53000 front 0))
+  (component RES90_R27 (place R27 4.52000 -30.96000 front 180))
+  (component RES90_R28 (place R28 57.86000 -23.34000 front 180))
+  (component RES90_R29 (place R29 57.86000 -3.02000 front 180))
+  (component DIL08_U1 (place U1 20.32000 5.08000 front 0))
+ )
+ (library
+  (image DIL16_U4 (side front)
+   (outline (rect TOP -1.37160 -0.63500 19.15160 8.25500))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+   (pin PS1 (rotate 0) 2 5.08000 0.00000)
+   (pin PS1 (rotate 0) 3 7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 10.16000 0.00000)
+   (pin PS1 (rotate 0) 5 12.70000 0.00000)
+   (pin PS1 (rotate 0) 6 15.24000 0.00000)
+   (pin PS1 (rotate 0) 7 17.78000 0.00000)
+   (pin PS1 (rotate 0) 8 17.78000 7.62000)
+   (pin PS1 (rotate 0) 9 15.24000 7.62000)
+   (pin PS1 (rotate 0) 10 12.70000 7.62000)
+   (pin PS1 (rotate 0) 11 10.16000 7.62000)
+   (pin PS1 (rotate 0) 12 7.62000 7.62000)
+   (pin PS1 (rotate 0) 13 5.08000 7.62000)
+   (pin PS1 (rotate 0) 14 2.54000 7.62000)
+   (pin PS1 (rotate 0) 15 0.00000 7.62000)
+  )
+  (image DIL16_U5 (side front)
+   (outline (rect TOP -1.37160 -0.63500 19.15160 8.25500))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+   (pin PS1 (rotate 0) 2 5.08000 0.00000)
+   (pin PS1 (rotate 0) 3 7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 10.16000 0.00000)
+   (pin PS1 (rotate 0) 5 12.70000 0.00000)
+   (pin PS1 (rotate 0) 6 15.24000 0.00000)
+   (pin PS1 (rotate 0) 7 17.78000 0.00000)
+   (pin PS1 (rotate 0) 8 17.78000 7.62000)
+   (pin PS1 (rotate 0) 9 15.24000 7.62000)
+   (pin PS1 (rotate 0) 10 12.70000 7.62000)
+   (pin PS1 (rotate 0) 11 10.16000 7.62000)
+   (pin PS1 (rotate 0) 12 7.62000 7.62000)
+   (pin PS1 (rotate 0) 13 5.08000 7.62000)
+   (pin PS1 (rotate 0) 14 2.54000 7.62000)
+   (pin PS1 (rotate 0) 15 0.00000 7.62000)
+  )
+  (image DIL16_U6 (side front)
+   (outline (rect TOP -1.37160 -0.63500 19.15160 8.25500))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+   (pin PS1 (rotate 0) 2 5.08000 0.00000)
+   (pin PS1 (rotate 0) 3 7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 10.16000 0.00000)
+   (pin PS1 (rotate 0) 5 12.70000 0.00000)
+   (pin PS1 (rotate 0) 6 15.24000 0.00000)
+   (pin PS1 (rotate 0) 7 17.78000 0.00000)
+   (pin PS1 (rotate 0) 8 17.78000 7.62000)
+   (pin PS1 (rotate 0) 9 15.24000 7.62000)
+   (pin PS1 (rotate 0) 10 12.70000 7.62000)
+   (pin PS1 (rotate 0) 11 10.16000 7.62000)
+   (pin PS1 (rotate 0) 12 7.62000 7.62000)
+   (pin PS1 (rotate 0) 13 5.08000 7.62000)
+   (pin PS1 (rotate 0) 14 2.54000 7.62000)
+   (pin PS1 (rotate 0) 15 0.00000 7.62000)
+  )
+  (image DIL16_U7 (side front)
+   (outline (rect TOP -1.37160 -0.63500 19.15160 8.25500))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+   (pin PS1 (rotate 0) 2 5.08000 0.00000)
+   (pin PS1 (rotate 0) 3 7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 10.16000 0.00000)
+   (pin PS1 (rotate 0) 5 12.70000 0.00000)
+   (pin PS1 (rotate 0) 6 15.24000 0.00000)
+   (pin PS1 (rotate 0) 7 17.78000 0.00000)
+   (pin PS1 (rotate 0) 8 17.78000 7.62000)
+   (pin PS1 (rotate 0) 9 15.24000 7.62000)
+   (pin PS1 (rotate 0) 10 12.70000 7.62000)
+   (pin PS1 (rotate 0) 11 10.16000 7.62000)
+   (pin PS1 (rotate 0) 12 7.62000 7.62000)
+   (pin PS1 (rotate 0) 13 5.08000 7.62000)
+   (pin PS1 (rotate 0) 14 2.54000 7.62000)
+   (pin PS1 (rotate 0) 15 0.00000 7.62000)
+  )
+  (image DIL14_U8 (side front)
+   (outline (rect TOP -1.37160 -0.63500 16.61160 8.25500))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+   (pin PS1 (rotate 0) 2 5.08000 0.00000)
+   (pin PS1 (rotate 0) 3 7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 10.16000 0.00000)
+   (pin PS1 (rotate 0) 5 12.70000 0.00000)
+   (pin PS1 (rotate 0) 6 15.24000 0.00000)
+   (pin PS1 (rotate 0) 7 15.24000 7.62000)
+   (pin PS1 (rotate 0) 8 12.70000 7.62000)
+   (pin PS1 (rotate 0) 9 10.16000 7.62000)
+   (pin PS1 (rotate 0) 10 7.62000 7.62000)
+   (pin PS1 (rotate 0) 11 5.08000 7.62000)
+   (pin PS1 (rotate 0) 12 2.54000 7.62000)
+   (pin PS1 (rotate 0) 13 0.00000 7.62000)
+  )
+  (image RES90_R3 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R4 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R5 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R6 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R7 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R8 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R9 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R10 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R11 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R12 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R13 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R14 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R15 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R16 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R17 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R18 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R19 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R27 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R28 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image RES90_R29 (side front)
+   (outline (rect TOP -1.14300 -1.37160 24.00300 1.37160))
+   (pin PS2 (rotate 0) 0 0.00000 0.00000)
+   (pin PS2 (rotate 0) 1 22.86000 0.00000)
+  )
+  (image DIL08_U1 (side front)
+   (outline (rect TOP -1.37160 -0.63500 8.99160 8.25500))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+   (pin PS1 (rotate 0) 2 5.08000 0.00000)
+   (pin PS1 (rotate 0) 3 7.62000 0.00000)
+   (pin PS1 (rotate 0) 4 7.62000 7.62000)
+   (pin PS1 (rotate 0) 5 5.08000 7.62000)
+   (pin PS1 (rotate 0) 6 2.54000 7.62000)
+   (pin PS1 (rotate 0) 7 0.00000 7.62000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (rect TOP -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I1 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I2 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I3 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I4 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I5 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I6 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I7 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I8 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I9 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I10 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I11 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I12 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I13 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect I14 -0.63500 -0.63500 0.63500 0.63500))
+   (shape (rect BOT -0.63500 -0.63500 0.63500 0.63500))
+  )
+  (padstack PS1 (absolute on)
+   (shape (circle TOP 1.27000 0 0))
+   (shape (circle I1 1.27000 0 0))
+   (shape (circle I2 1.27000 0 0))
+   (shape (circle I3 1.27000 0 0))
+   (shape (circle I4 1.27000 0 0))
+   (shape (circle I5 1.27000 0 0))
+   (shape (circle I6 1.27000 0 0))
+   (shape (circle I7 1.27000 0 0))
+   (shape (circle I8 1.27000 0 0))
+   (shape (circle I9 1.27000 0 0))
+   (shape (circle I10 1.27000 0 0))
+   (shape (circle I11 1.27000 0 0))
+   (shape (circle I12 1.27000 0 0))
+   (shape (circle I13 1.27000 0 0))
+   (shape (circle I14 1.27000 0 0))
+   (shape (circle BOT 1.27000 0 0))
+  )
+  (padstack PS2 (absolute on)
+   (shape (circle TOP 2.28600 0 0))
+   (shape (circle I1 2.28600 0 0))
+   (shape (circle I2 2.28600 0 0))
+   (shape (circle I3 2.28600 0 0))
+   (shape (circle I4 2.28600 0 0))
+   (shape (circle I5 2.28600 0 0))
+   (shape (circle I6 2.28600 0 0))
+   (shape (circle I7 2.28600 0 0))
+   (shape (circle I8 2.28600 0 0))
+   (shape (circle I9 2.28600 0 0))
+   (shape (circle I10 2.28600 0 0))
+   (shape (circle I11 2.28600 0 0))
+   (shape (circle I12 2.28600 0 0))
+   (shape (circle I13 2.28600 0 0))
+   (shape (circle I14 2.28600 0 0))
+   (shape (circle BOT 2.28600 0 0))
+  )
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+  (padstack $VIA#0_POWER (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00000"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-2 U5-2 U6-2 U7-2 U1-3 U1-7)
+  )
+  (net "#00001"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U1-6)
+  )
+  (net "#00004"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U1-1 U1-5)
+  )
+  (net "#00007"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-0 U5-4)
+  )
+  (net "#00008"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-14)
+  )
+  (net "#00009"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-9 R13-0)
+  )
+  (net "#00010"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-11 R14-0)
+  )
+  (net "#00011"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-12 R15-0)
+  )
+  (net "#00012"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-8 R16-0)
+  )
+  (net "#00013"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-10 R17-0 R29-0)
+  )
+  (net "#00014"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-5 R18-0 R28-0)
+  )
+  (net "#00015"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U4-6 R19-0 R27-0)
+  )
+  (net "#00021"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U5-0 U8-11)
+  )
+  (net "#00022"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U5-14 U7-14)
+  )
+  (net "#00034"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-0 U7-4)
+  )
+  (net "#00035"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-14)
+  )
+  (net "#00036"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-9 R3-0)
+  )
+  (net "#00037"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-11 R4-0)
+  )
+  (net "#00038"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-12 R5-0)
+  )
+  (net "#00039"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-8 R6-0)
+  )
+  (net "#00040"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-10 R7-0 R12-0)
+  )
+  (net "#00041"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-5 R8-0 R11-0)
+  )
+  (net "#00042"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U6-6 R9-0 R10-0)
+  )
+  (net "#00066"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-0 R10-1)
+  )
+  (net "#00067"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-1 R11-1)
+  )
+  (net "#00068"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-12 R12-1)
+  )
+  (net "#00078"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-2 R27-1)
+  )
+  (net "#00079"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-3 R28-1)
+  )
+  (net "#00080"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-4 R29-1)
+  )
+  (net "#00081"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U8-5)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+   (pins U4-1 U4-7 U5-1 U5-7 U6-1 U6-7 U7-1 U7-7 U8-6 U1-0)
+  )
+  (net "VCC/VDD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+   (pins U4-15 U5-15 U6-15 U7-15 U8-13)
+  )
+  (class POWER
+   "GND"
+   "VCC/VDD"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "#00000"
+   "#00001"
+   "#00004"
+   "#00007"
+   "#00008"
+   "#00009"
+   "#00010"
+   "#00011"
+   "#00012"
+   "#00013"
+   "#00014"
+   "#00015"
+   "#00021"
+   "#00022"
+   "#00034"
+   "#00035"
+   "#00036"
+   "#00037"
+   "#00038"
+   "#00039"
+   "#00040"
+   "#00041"
+   "#00042"
+   "#00066"
+   "#00067"
+   "#00068"
+   "#00078"
+   "#00079"
+   "#00080"
+   "#00081"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+   (wire (path TOP 0.25400 0.00000 15.24000 1.90500 17.14500 23.49500 17.14500 25.40000 15.24000
+  ) (net "#00000"))
+   (wire (path TOP 0.25400 -5.08000 5.08000 -17.78000 5.08000 -20.32000 2.54000) (net "#00021")
+  )
+   (wire (path TOP 0.25400 -2.54000 12.70000 -1.27000 13.97000 -1.27000 18.41500 -0.63500 19.05000
+   22.22500 19.05000 22.86000 19.68500 22.86000 22.86000) (net "#00022"))
+   (wire (path TOP 0.25400 -5.08000 15.24000 -5.08000 19.82507 -4.44500 20.46007 20.46007 20.46007
+    21.59000 21.59000 21.59000 23.49500 22.22500 24.13000 23.49500 24.13000 24.13000 23.49500
+   24.13000 21.59000 30.48000 15.24000) (net "#00034"))
+   (wire (path TOP 0.25400 7.62000 15.24000 8.89000 13.97000 20.95500 13.97000 21.59000 13.33500
+   21.59000 -1.19000 8.33000 -14.45000) (net "#00041"))
+   (wire (path TOP 0.25400 -2.54000 5.08000 -1.27000 3.81000 11.43000 3.81000 12.70000 5.08000
+  ) (net "GND"))
+   (wire (path TOP 0.25400 22.86000 15.24000 21.59000 16.51000 13.97000 16.51000 12.70000 15.24000
+  ) (net "GND"))
+  (wire (path TOP 0.25400 12.70000 5.08000 20.32000 5.08000) (net "GND"))
+   (wire (path TOP 0.25400 -5.08000 22.86000 -3.81000 24.13000 19.05000 24.13000 20.32000 22.86000
+  ) (net "VCC/VDD"))
+   (wire (path TOP 0.25400 -5.08000 2.54000 -6.98500 0.63500 -23.49500 0.63500 -25.40000 2.54000
+  ) (net "VCC/VDD"))
+   (wire (path TOP 0.25400 -5.08000 2.54000 -3.81000 3.81000 -3.81000 11.43000 -5.08000 12.70000
+  ) (net "VCC/VDD"))
+   (wire (path BOT 0.25400 25.40000 15.24000 26.67000 13.97000 26.67000 6.35000 27.94000 5.08000
+  ) (net "#00000"))
+   (wire (path BOT 0.25400 25.40000 15.24000 24.13000 13.97000 22.22500 13.97000 21.59000 13.33500
+   21.59000 12.70000 20.32000 12.70000) (net "#00000"))
+   (wire (path BOT 0.25400 1.90500 3.81000 1.27000 3.81000 0.00000 5.08000) (net "#00000")
+  )
+   (wire (path BOT 0.25400 1.90500 3.81000 5.71500 3.81000 6.35000 4.44500 6.35000 6.98500
+    5.71500 7.62000 1.90500 7.62000 1.27000 8.25500 1.27000 13.97000 0.00000 15.24000
+  ) (net "#00000"))
+   (wire (path BOT 0.25400 0.00000 -5.08000 0.00000 -1.27000 1.27000 0.00000 1.27000 3.17500
+   1.90500 3.81000) (net "#00000"))
+   (wire (path BOT 0.25400 22.86000 5.08000 22.86000 8.89000 25.40000 11.43000 25.40000 12.70000
+  ) (net "#00004"))
+   (wire (path BOT 0.25400 -5.08000 -5.08000 -5.08000 -1.90500 -1.27000 1.90500 -1.27000 5.71500
+   -0.63500 6.35000 3.81000 6.35000 5.08000 5.08000) (net "#00007"))
+   (wire (path BOT 0.25400 10.16000 2.54000 11.43000 3.81000 17.78000 3.81000 18.41500 3.17500
+    59.13000 3.17500 59.76500 2.54000 59.76500 -11.27500 59.13000 -11.91000 31.82500 -11.91000
+    31.19000 -12.54500 31.19000 -16.99000 30.55500 -17.62500 16.58500 -17.62500 13.41000 -14.45000
+  ) (net "#00009") (type protect))
+   (wire (path BOT 0.25400 5.08000 2.54000 8.25500 -0.63500 36.27000 -0.63500 36.90500 -1.27000
+    36.90500 -5.44046 36.27000 -6.07546 26.86454 -6.07546 26.11000 -6.83000 26.11000 -16.35500
+    25.47500 -16.99000 19.12500 -16.99000 18.49000 -16.35500 18.49000 -14.45000) (net "#00010")
+   (type protect))
+   (wire (path BOT 0.25400 2.54000 2.54000 7.62000 -2.54000 22.93500 -2.54000 23.57000 -3.17500
+   23.57000 -14.45000) (net "#00011") (type protect))
+   (wire (path BOT 0.25400 12.70000 2.54000 37.54000 2.54000 38.17500 1.90500 38.17500 -8.73500
+    37.54000 -9.37000 29.28500 -9.37000 28.65000 -10.00500 28.65000 -14.45000) (net "#00012")
+   (type protect))
+   (wire (path BOT 0.25400 41.35000 -8.10000 52.78000 -8.10000 57.86000 -3.02000) (net "#00013")
+  )
+   (wire (path BOT 0.25400 7.62000 2.54000 10.16000 0.00000 36.90500 0.00000 37.54000 -0.63500
+    37.54000 -7.29159 36.90500 -7.92659 27.55341 -7.92659 26.74500 -8.73500 26.74500 -15.72000
+    27.38000 -16.35500 29.92000 -16.35500 30.55500 -15.72000 30.55500 -11.91000 31.19000 -11.27500
+   38.17500 -11.27500 41.35000 -8.10000) (net "#00013") (type protect))
+   (wire (path BOT 0.25400 37.46500 -20.95500 53.34000 -20.95500 55.72500 -23.34000 57.86000 -23.34000
+  ) (net "#00014"))
+   (wire (path BOT 0.25400 37.46500 -20.95500 37.46500 -16.91500 35.00000 -14.45000)
+   (net "#00014"))
+   (wire (path BOT 0.25400 36.27000 -21.43500 36.98500 -21.43500 37.46500 -20.95500)
+   (net "#00014"))
+   (wire (path BOT 0.25400 7.62000 -5.08000 8.33000 -5.08000 10.23500 -6.98500 10.23500 -28.42000
+    9.60000 -29.05500 2.61500 -29.05500 1.98000 -29.69000 1.98000 -32.23000 2.61500 -32.86500
+    21.03000 -32.86500 32.46000 -21.43500 36.27000 -21.43500) (net "#00014") (type protect)
+  )
+   (wire (path BOT 0.25400 11.50500 -19.53000 11.50500 -29.84500 10.39000 -30.96000 4.52000 -30.96000
+  ) (net "#00015"))
+  (wire (path BOT 0.25400 11.50500 -19.53000 35.00000 -19.53000) (net "#00015"))
+   (wire (path BOT 0.25400 10.16000 -5.08000 10.87000 -5.08000 10.87000 -18.89500 11.50500 -19.53000
+  ) (net "#00015") (type protect))
+   (wire (path BOT 0.25400 25.79500 46.16000 25.79500 54.41500 22.62000 57.59000) (net "#00040")
+  )
+  (wire (path BOT 0.25400 31.51000 46.16000 25.79500 46.16000) (net "#00040"))
+   (wire (path BOT 0.25400 25.79500 46.16000 25.16000 45.52500 25.16000 44.33000) (net "#00040")
+   (type protect))
+   (wire (path BOT 0.25400 8.33000 -14.45000 8.33000 -22.07000 4.52000 -25.88000) (net "#00041")
+  )
+   (wire (path BOT 0.25400 -9.13000 34.73000 -14.21000 39.81000 -26.91000 39.81000) (net "#00042")
+  )
+   (wire (path BOT 0.25400 -22.86000 -5.08000 -21.59000 -3.81000 -18.97500 -3.81000 -18.34000 -4.44500
+   -18.34000 -25.88000) (net "#00067") (type protect))
+   (wire (path BOT 0.25400 -20.32000 -5.08000 -19.61000 -5.08000 -20.88000 -6.35000 -20.88000 -28.42000
+   -18.34000 -30.96000) (net "#00078") (type protect))
+   (wire (path BOT 0.25400 -17.78000 -5.08000 -17.07000 -5.08000 -15.80000 -6.35000 -15.80000 -32.86500
+    -15.16500 -33.50000 34.36500 -33.50000 35.00000 -32.86500 35.00000 -23.34000) (net "#00079")
+   (type protect))
+   (wire (path BOT 0.25400 -15.24000 -5.08000 -17.14500 -3.17500 -22.78500 -3.17500 -23.42000 -3.81000
+    -23.42000 -33.50000 -22.78500 -34.13500 59.76500 -34.13500 60.40000 -33.50000 60.40000 -13.18000
+    59.76500 -12.54500 32.46000 -12.54500 31.82500 -13.18000 31.82500 -17.62500 31.19000 -18.26000
+    12.14000 -18.26000 11.50500 -17.62500 11.50500 -12.54500 12.14000 -11.91000 18.49000 -11.91000
+    22.93500 -16.35500 24.84000 -16.35500 25.47500 -15.72000 25.47500 -3.65500 26.11000 -3.02000
+   35.00000 -3.02000) (net "#00080") (type protect))
+   (wire (path BOT 0.25400 -6.98500 -5.58800 -10.16000 -5.58800 -10.16000 -5.08000) (net "GND")
+  )
+   (wire (path BOT 0.25400 -6.35000 -6.35000 -6.35000 -5.58800 -6.98500 -5.58800) (net "GND")
+  )
+   (wire (path BOT 0.25400 20.32000 5.08000 21.59000 5.08000 21.59000 4.44500 22.22500 3.81000
+   28.57500 3.81000 29.21000 4.44500 29.21000 15.87500) (net "GND"))
+   (wire (path BOT 0.25400 -6.98500 -5.58800 -6.98500 -2.54000 -3.81000 0.63500 -3.81000 3.81000
+   -2.54000 5.08000) (net "GND"))
+   (wire (path BOT 0.25400 -2.54000 -5.08000 -1.27000 -6.35000 0.63500 -6.35000 1.27000 -5.71500
+    1.27000 -4.44500 1.90500 -3.81000 11.43000 -3.81000 12.70000 -5.08000) (net "GND")
+  )
+   (wire (path BOT 0.25400 -2.54000 5.08000 -3.81000 6.35000 -3.81000 13.97000 -2.54000 15.24000
+  ) (net "GND"))
+   (wire (path BOT 0.25400 29.21000 15.87500 29.84500 16.51000 36.83000 16.51000 38.10000 15.24000
+  ) (net "GND"))
+   (wire (path BOT 0.25400 29.21000 15.87500 28.57500 16.51000 24.13000 16.51000 22.86000 15.24000
+  ) (net "GND"))
+   (wire (path BOT 0.25400 -2.54000 -5.08000 -3.81000 -6.35000 -6.35000 -6.35000) (net "GND")
+  )
+   (wire (path BOT 0.25400 -5.08000 12.70000 -6.35000 13.97000 -6.35000 21.59000 -5.08000 22.86000
+  ) (net "VCC/VDD"))
+   (wire (path BOT 0.25400 10.16000 15.24000 10.16000 17.14500 10.79500 17.78000 43.57500 17.78000
+    44.21000 18.41500 44.21000 60.13000 43.57500 60.76500 18.07186 60.76500 -3.51814 39.17500
+   -4.68500 39.17500 -9.13000 34.73000) (net "#00042") (type protect))
+ )
+)
